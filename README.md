@@ -229,7 +229,7 @@ server 127.0.0.1:3002 backup;   /* added deliberately */
 ## Evidence
 
 Terminal captures from the actual Parrot OS session, one per milestone above. The
-complete set (20 screenshots) lives in [`images/`](images/) — a subset is shown here.
+complete demonstration and evidence is found in the documentation report and the video demo.
 
 | | |
 |---|---|
@@ -280,3 +280,6 @@ output while writing it up. All commands, configuration, and the two fault
 investigations above were run and verified by the group on its own machine.
 
 ---
+##video Demo
+
+https://drive.google.com/file/d/1VF7UpZ5UFVg3mfAHzFNBtSp4oV1RMC4h/view?usp=drivesdk
