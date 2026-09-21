@@ -233,11 +233,11 @@ complete set (20 screenshots) lives in [`images/`](images/) — a subset is show
 
 | | |
 |---|---|
-|  | Both backend services `active (running)`, each listening only on its own loopback port. |
-| | Ten requests through NGINX, alternating Server 1 / Server 2 — load balancing, proven. |
-| | HTTP → 301 → HTTPS, and the HTTPS response itself, side by side. |
-| | Final UFW ruleset: 22/80/443 allowed, 3001/3002 denied. |
-| | After Fault #2 was fixed — balanced traffic restored, all three services healthy. |
+|  Both backend services `active (running)`, each listening only on its own loopback port. |
+| Ten requests through NGINX, alternating Server 1 / Server 2 — load balancing, proven. |
+| HTTP → 301 → HTTPS, and the HTTPS response itself, side by side. |
+| Final UFW ruleset: 22/80/443 allowed, 3001/3002 denied. |
+| After Fault #2 was fixed — balanced traffic restored, all three services healthy. |
 
 ---
 
